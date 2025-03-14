@@ -4,10 +4,10 @@ class CatVsDogGame extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('background', 'assets/background.png');
-        this.load.image('cat', 'assets/cat.png');
-        this.load.image('dog', 'assets/dog.png');
-        this.load.image('rock', 'assets/rock.png');
+this.load.image('background', 'bg.png');
+this.load.image('cat', 'cat.png');
+this.load.image('dog', 'dog.png');
+this.load.image('rock', 'rock.png');
     }
 
     create() {
